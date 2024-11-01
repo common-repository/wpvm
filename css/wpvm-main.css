@@ -1,0 +1,37 @@
+/**
+ * This file is part of the WPVM plugin for WordPress.
+ *
+ * Contains style information for the WPVM Metadata Review Mode.
+ *
+ * For licensing information, please check the LICENSE file that ships with
+ * the WPVM distribution package.
+ */
+
+
+
+/**
+ * Menu Icon
+ *
+ * See: https://developer.wordpress.org/resource/dashicons/
+ */
+
+#wpadminbar li#wp-admin-bar-wpvm {
+    display: block;
+}
+
+#wpadminbar #wp-admin-bar-wpvm .ab-icon:before {
+    content: "\f218";
+    top: 3px;
+}
+
+@media screen and (max-width:782px) {
+
+    #wpadminbar #wp-admin-bar-wpvm .ab-icon:before {
+        display: block;
+        font-size: 34px;
+        height: 46px;
+        line-height: 47px;
+        top: 0;
+    }
+
+}
